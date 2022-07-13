@@ -151,7 +151,7 @@ install_x-ui() {
     systemctl daemon-reload
     systemctl enable x-ui
     systemctl start x-ui
-    echo -e "${green}x-ui v${last_version}${plain} 安装完成，面板已启动，授权到期2022-08-13"
+    echo -e "${green}x-ui v${last_version}${plain} 安装完成，面板授权日期：2022-08-13"
     echo -e ""
     echo -e "x-ui 管理脚本使用方法: "
     echo -e "----------------------------------------------"
